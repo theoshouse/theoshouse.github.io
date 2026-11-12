@@ -1,3 +1,48 @@
-theme: jekyll-theme-minimal
-title: Theodore Yohalem Shouse's Personal Website
-description: A personal site
+# ------------------------------------------------------------
+# SITE SETTINGS
+# Change the text after each colon. Keep the quotation marks.
+# After you save this file, wait 1-2 minutes for the site to update.
+# ------------------------------------------------------------
+
+title: "Your Name"
+description: "A short line about you, shown in search engine results."
+email: "you@example.com"
+
+# Links shown at the bottom of every page. Delete any line you don't want.
+links:
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/your-profile"
+  - name: "GitHub"
+    url: "https://github.com/your-username"
+
+# The menu at the top of every page.
+# To add a page to the menu, add two lines like the ones below.
+navigation:
+  - name: "About"
+    url: "/"
+  - name: "CV"
+    url: "/cv/"
+  - name: "Blog"
+    url: "/blog/"
+
+# ------------------------------------------------------------
+# TECHNICAL SETTINGS: you shouldn't need to change anything below.
+# ------------------------------------------------------------
+markdown: kramdown
+permalink: /blog/:year/:month/:title/
+timezone: America/Toronto
+
+exclude:
+  - HOW-TO-EDIT.md
+  - README.md
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

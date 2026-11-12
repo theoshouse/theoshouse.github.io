@@ -1,0 +1,71 @@
+/* Colours and fonts. Change these values to restyle the whole site. */
+:root {
+  --text: #222;
+  --muted: #666;
+  --accent: #1a5fb4;
+  --background: #fff;
+  --border: #e5e5e5;
+  --font: Georgia, "Times New Roman", serif;
+  --ui-font: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0 auto;
+  max-width: 720px;
+  padding: 0 1.25rem;
+  font-family: var(--font);
+  font-size: 1.1rem;
+  line-height: 1.65;
+  color: var(--text);
+  background: var(--background);
+}
+
+a { color: var(--accent); }
+
+.site-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 1.5rem 0 1rem;
+  border-bottom: 1px solid var(--border);
+  font-family: var(--ui-font);
+}
+.site-title { font-weight: 700; font-size: 1.25rem; color: var(--text); text-decoration: none; }
+.site-header nav a { margin-left: 1.1rem; color: var(--muted); text-decoration: none; }
+.site-header nav a:first-child { margin-left: 0; }
+.site-header nav a:hover, .site-header nav a.current { color: var(--accent); }
+
+main { padding: 1.5rem 0 2rem; }
+
+h1, h2, h3 { font-family: var(--ui-font); line-height: 1.25; }
+h1 { font-size: 2rem; margin-top: 0.5rem; }
+h2 { font-size: 1.35rem; margin-top: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 0.25rem; }
+
+img { max-width: 100%; height: auto; }
+.profile-photo { width: 160px; height: 160px; object-fit: cover; border-radius: 50%; float: right; margin: 0 0 1rem 1.5rem; }
+
+.post-item { margin-bottom: 1.5rem; }
+.post-link { font-family: var(--ui-font); font-size: 1.2rem; font-weight: 600; text-decoration: none; }
+.post-item p { margin: 0.25rem 0 0; }
+.post-date { display: block; color: var(--muted); font-family: var(--ui-font); font-size: 0.9rem; }
+.back { margin-top: 2.5rem; font-family: var(--ui-font); }
+
+blockquote { margin: 1rem 0; padding-left: 1rem; border-left: 3px solid var(--border); color: var(--muted); }
+code { font-size: 0.9em; background: #f4f4f4; padding: 0.1em 0.3em; border-radius: 3px; }
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 1rem 0 2rem;
+  color: var(--muted);
+  font-family: var(--ui-font);
+  font-size: 0.9rem;
+}
+.site-footer p { margin: 0.25rem 0; }
+
+@media (max-width: 520px) {
+  .profile-photo { float: none; display: block; margin: 0 auto 1rem; }
+}
