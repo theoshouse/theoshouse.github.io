@@ -24,4 +24,4 @@ Episodes are files in the `_podcasts` collection (front matter `title`, `date`, 
 
 ## Substack
 
-Substack blocks automated requests from GitHub and from Claude's servers, so posts can't be fetched automatically. Theo's public Substack posts and podcasts were imported in November 2026 from a Substack export (the 23 posts Theo had unpublished on Substack were deliberately left out). Imported posts link back to Substack with `also_on`. Their spelling was changed to Canadian; nothing else was edited. The site only links to Substack (`substack_url` in `_config.yml`); `/substack/` redirects to `/blog/`.
+Substack blocks automated requests from GitHub and from Claude's servers, so posts can't be fetched automatically. Theo's public Substack posts and podcasts were imported in November 2026 from a Substack export (the 23 posts Theo had unpublished on Substack were deliberately left out, and Theo later removed the four "Miscellany" posts). Imported posts link back to Substack with `also_on`. Their spelling was changed to Canadian; nothing else was edited. The site only links to Substack (`substack_url` in `_config.yml`); `/substack/` redirects to `/blog/`.
