@@ -15,6 +15,4 @@ permalink: /blog/
 
 ## Get new posts by email
 
-My posts also go out on [Substack]({{ site.substack_url }}). Enter your email to get them in your inbox.
-
-{% include substack-subscribe.html %}
+My posts also go out on Substack. [Subscribe by email]({{ site.substack_url }}/subscribe) to get them in your inbox.

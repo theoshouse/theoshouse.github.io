@@ -105,7 +105,7 @@ then add it to the `navigation` list in `_config.yml`:
 
 ## Substack and cross-posting
 
-The bottom of the **Blog** page has a box where visitors can subscribe to your Substack by email. If you ever change your Substack address, edit the `substack_url` line in `_config.yml`.
+The bottom of the **Blog** page has a link where visitors can subscribe to your Substack by email. If you ever change your Substack address, edit the `substack_url` line in `_config.yml`.
 
 If a post also appears somewhere else (Substack, LessWrong, the EA Forum), you can list those places at the top of the post, and the post will end with "Also published on ..." links:
 
