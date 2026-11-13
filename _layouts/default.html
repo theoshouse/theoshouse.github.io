@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <title>{% if page.title and site.title != "" %}{{ page.title }} | {{ site.title }}{% else %}{{ page.title | default: site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
 <body>
   <header class="site-header">
-    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    {% if site.title != "" %}<a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>{% endif %}
     <nav>
       {% for item in site.navigation %}
         <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="current"{% endif %}>{{ item.name }}</a>
@@ -18,7 +18,7 @@
   </header>
 
   <main>
-    {% if page.photo %}<img class="profile-photo" src="{{ page.photo | relative_url }}" alt="Photo of {{ site.title }}">{% endif %}
+    {% if page.photo %}<img class="profile-photo" src="{{ page.photo | relative_url }}" alt="Profile photo">{% endif %}
     {{ content }}
   </main>
 
@@ -27,7 +27,7 @@
       {% if site.email %}<a href="mailto:{{ site.email }}">{{ site.email }}</a>{% endif %}
       {% for link in site.links %} · <a href="{{ link.url }}">{{ link.name }}</a>{% endfor %}
     </p>
-    <p>© {{ site.time | date: "%Y" }} {{ site.title }}</p>
+    <p>© {{ site.time | date: "%Y" }}{% if site.title != "" %} {{ site.title }}{% endif %}</p>
   </footer>
 </body>
 </html>
