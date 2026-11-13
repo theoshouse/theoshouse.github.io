@@ -18,6 +18,10 @@ also_on:
     url: "https://theoshouse.substack.com/p/..."
 ```
 
+## Podcasts
+
+Episodes are files in the `_podcasts` collection (front matter `title`, `date`, `description`, `slug`; body has the Spotify embed). `podcasts.md` lists them. `published: false` hides an episode; Vlahos, Lieven and Echols are hidden at Theo's request until Theo says otherwise.
+
 ## Substack
 
-Substack blocks automated requests from GitHub and from Claude's servers, so posts can't be fetched automatically. To import old Substack posts, Theo downloads an export from Substack (Settings, Export) and uploads the zip. The site only links to Substack (`substack_url` in `_config.yml`); `/substack/` redirects to `/blog/`.
+Substack blocks automated requests from GitHub and from Claude's servers, so posts can't be fetched automatically. Theo's public Substack posts and podcasts were imported in November 2026 from a Substack export (the 23 posts Theo had unpublished on Substack were deliberately left out). Imported posts link back to Substack with `also_on`. Their spelling was changed to Canadian; nothing else was edited. The site only links to Substack (`substack_url` in `_config.yml`); `/substack/` redirects to `/blog/`.

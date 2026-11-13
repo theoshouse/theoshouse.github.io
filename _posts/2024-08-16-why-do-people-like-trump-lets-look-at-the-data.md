@@ -1,0 +1,108 @@
+---
+title: "Why do people like Trump? Let's look at the data"
+date: 2024-08-16 12:29:18 -0400
+description: "The data don't convincingly show that racism is why Trump won, despite what some academics claim."
+also_on:
+  - name: "Substack"
+    url: "https://theoshouse.substack.com/p/economic-anxiety-and-racial-resentment"
+---
+
+<figure><img src="{{ '/assets/images/substack/why-do-people-like-trump-lets-look-at-the-data-1.jpg' | relative_url }}" alt="" loading="lazy"></figure>
+
+What’s a better predictor of voting for Trump: economic anxiety or racial resentment? This sociological question has plagued academics for the last eight years as they’ve tried to reckon with Clinton’s defeat in the 2016 election, in which white working-class voters from the Rustbelt—many of whom voted for Obama—swung to Trump and delivered him the victory in the Electoral College.
+
+Obviously Trump is a racist. Much of his messaging and policies (the wall, the Muslim ban, “[shithole countries](https://www.nbcnews.com/politics/white-house/trump-referred-haiti-african-countries-shithole-nations-n836946),” “[Barack HUSSEIN Obama](https://www.rollingstone.com/politics/politics-news/trump-posts-fan-fiction-biden-harris-nomination-1235075162/),” etc.) evoke bigotry. Some of the things he said weren’t dog whistles—they were just absurdly, explicitly racist. And lots of people voted for him. Those people have a high tolerance for racism. But their voting for him does not mean they did so *because he was racist*. The studies supporting the theory that Trump won due to racism are not solid, and in some cases they actually show that economic anxiety was more important for Trump’s victory than racism, contrary to the studies’ claims. Also, complex social phenomena like racism, voting patterns, and economic anxiety are intertwined and difficult to isolate and test rigourously—so take all this with a grain of salt.
+
+A 2019 *Brookings* article called “[Trump and Racism: What Do the Data Say?](https://www.brookings.edu/articles/trump-and-racism-what-do-the-data-say/)” by Vanessa Williamson and Isabella Gelfand came to the conclusion that “Donald Trump’s support in the 2016 campaign was clearly driven by racism, sexism, and xenophobia. While [some observers](https://www.cnn.com/2016/11/10/opinions/how-clinton-lost-the-working-class-coontz/) have explained Trump’s success as a result of economic anxiety, [the data desmonstrate](https://onlinelibrary.wiley.com/doi/epdf/10.1002/polq.12737) that [anti-immigrant sentiment](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/537A8ABA46783791BFF4E2E36B90C0BE/S1049096518000367a.pdf/explaining_the_trump_vote_the_effect_of_racist_resentment_and_antiimmigrant_sentiments.pdf), racism, and sexism are much more strongly related to support for Trump.”
+
+Despite their strong claim, their conclusion is not solid. In fact, one of the studies they cite provides data that directly contravene their claim. Before I get to that, there’s a nit I need to pick about the methodology of assessing economic anxiety.
+
+### Sociotropic vs. Retrospective Economic Analysis
+
+Both articles Williamson and Gelfand cite for their claim use largely sociotropic[^1] evaluations of economic anxiety—i.e. they examine people’s economic situation in comparison to others at the same time—rather than retrospective evaluations, which *[The Atlantic](https://www.theatlantic.com/business/archive/2016/08/donald-trump-and-economic-anxiety/496385/)*[’s Derek Thompson](https://www.theatlantic.com/business/archive/2016/08/donald-trump-and-economic-anxiety/496385/) and I think are better for understanding Trump’s 2016 win.
+
+The kind of economic anxiety that’s pertinent here is that which rural working-class whites experienced over the last three decades due to globalization. This is the group that [Trump decisively did better with](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3501263) than past Republicans. When the US entered into free trade agreements with Mexico and China, many jobs in the industrial heartland left. [Millions of manufacturing jobs left](https://www.usitc.gov/research_and_analysis/documents/Pierce%20and%20Schott%20-%20The%20Surprisingly%20Swift%20Decline%20of%20U.S.%20Manufacturing%20Employment_0.pdf) the United States between 2001 and 2016 because it established permanent normal trade relations with China. The industrial states of Wisconsin, Michigan, and Pennsylvania—which were once dependably Democratic—were hit particularly hard. Between 1999 and 2011, 2.4 million American jobs were lost to Chinese competition, according to economists [David Autor, David Dorn, and Gordon Hanson](https://www.nber.org/system/files/working_papers/w21906/w21906.pdf). If Chinese import penetration had been 50% less in Michigan, Wisconsin, Pennsylvania, and North Carolina, Hillary Clinton would have won those states, according to [Autor, Dorn, Hanson, and Kaveh Majlesi](https://www.nber.org/system/files/working_papers/w22637/w22637.pdf).
+
+This economic transformation was harmful to manufacturing workers and those who lived in their communities, which is the same rural, white, working-class demographic that gave Trump the win. The harm that these voters experienced is retrospective, not sociotropic: it is a slow, multi-decade loss of economic wellbeing and prospects. This is my theory for why [working-class rural whites are the most pessimistic but not the least well off](https://www.cnn.com/2016/09/19/politics/trump-supporters-working-class-white-kaiser-family-foundation-infographic/) demographic in the United States. The kind of economic anxiety they experience can still exist in a world in which they are doing comparably well to other demographics in the country, so a sociotropic evaluation of economic anxiety—or a retrospective one that only goes back a few years—is not useful for understanding why people voted for Trump.
+
+In any case, the first article Williamson and Gelfand cite—a [2018 study](https://doi.org/10.1002/polq.12737) in *Political Science Quarterly* done by Brian F. Schaffner, Matthew Macwilliams, Tatishe Nteta—does show that racism is more predictive than economic anxiety in voting for Trump:
+
+<figure><img src="{{ '/assets/images/substack/why-do-people-like-trump-lets-look-at-the-data-2.png' | relative_url }}" alt="" loading="lazy"><figcaption>The coefficients for “economic situation” are less than those for “racism scale” in all four columns.</figcaption></figure>
+
+However, another study, which I discuss at the end of this post, shows that by introducing the variable of relatedness—the “sense that one has nourishing, supportive, and reliable social connections”—the predictive power of racism becomes statistically insignificant.
+
+### What *do* the data say?
+
+In their article “Trump and Racism: What Do the Data Say?” Williamson and Gelfand of *Brookings* also cite another article called “[Explaining the Trump Vote: The Effect of Racism and Anti-Immigrant Sentiments](https://www.cambridge.org/core/journals/ps-political-science-and-politics/article/explaining-the-trump-vote-the-effect-of-racist-resentment-and-antiimmigrant-sentiments/537A8ABA46783791BFF4E2E36B90C0BE#figures)” by Marc Hooghe & Ruth Dassonneville published in Camridge’s *Political Science and Politics*. In the conclusion of “Explaining the Trump Vote,” Hooghe and Dassonneville write that “the most important finding of the analysis, however, is that racism—regardless of how it was measured—appears to have been an important motive in voting for Trump.”
+
+Yes, their results show that racism was a statistically significant predictor of voting for Trump, even when controlling for economic anxiety and all the other variables in their study. However, they don’t mention economic anxiety in their conclusion, even though their data show that *it too* is an independently statistically significant predictor of voting for Trump (that is, when controlling for racism and anti-immigrant sentiment and all the other variables in their study). **What’s even more perplexing is that they omit economic anxiety from the conclusion despite their data showing that it’s** ***more predictive*** **of voting for Trump than racial resentment.**
+
+<figure><img src="{{ '/assets/images/substack/why-do-people-like-trump-lets-look-at-the-data-3.jpg' | relative_url }}" alt="" loading="lazy"><figcaption>The coefficient (b) of “economic evaluation” (-4.275) is greater in magnitude than that of “racist resentment”(3.984) in Model 4.</figcaption></figure>
+
+What’s more, in the third appendix of their article, they show the results for just non-Hispanic whites—the key demographic for understanding Trump’s victory. Among this demographic group, **economic anxiety is more predictive of voting for Trump than both racial resentment** ***and*** **anti-immigrant sentiment.** And the extent to which economic anxiety is more predictive than racial resentment is greater for non-Hispanic whites than for the general populace. Also of note is that anti-immigrant sentiment is more predictive than racial resentment.
+
+Interestingly, in both the general populace and among non-Hispanic whites, Hooghe and Dassonneville’s models that include anti-immigrant sentiment rather than racial resentment have higher R-squared values, meaning they explain more of the variance in the data. The conclusion I take away from these data is that economic anxiety was more important for Trump’s victory than anti-immigrant sentiment, which itself was more predictive than racial resentment.
+
+<figure><img src="{{ '/assets/images/substack/why-do-people-like-trump-lets-look-at-the-data-4.png' | relative_url }}" alt="" loading="lazy"></figure>
+
+### Anti-immigrant sentiment does not equal racism
+
+If we’re going to give Hooghe and Dassonneville the benefit of the doubt, then they probably interpreted the general populace results that showed the anti-immigrant sentiment was more predictive than economic anxiety (and ignored the small difference in pseudo R-squared between models three and four, choosing the model with anti-immigrant sentiment in it). And then perhaps they interpreted anti-immigrant sentiment to basically be racism because in their conclusion they wrote that the most important takeaway from their study was that “racism—regardless of how it was measured—appears to have been an important motive in voting for Trump.”
+
+I think this is a dubious jump, especially since the way they measure “anti-immigrant sentiment” could plausibly be measuring people’s beliefs about empirical economic factual claims and not prejudice against immigrants. They use these questions:
+
+1.     “Would you say it is generally bad or good for the US economy that people come live here from other countries?”
+
+2.     “Would you say that US cultural life is generally undermined or enriched by people coming to live here from other countries?”
+
+3.     “Is the US made a worse or a better place to live by people coming to live here from other countries?”
+
+I think only question two definitely measures for prejudice against immigrants. The other two questions could merely be measuring whether people believe that increasing the labour supply harms domestic workers and increasing demand for core goods like housing harms domestic consumers, two beliefs that plenty of economist hold.[^2]
+
+So I find the conclusions from Hooghe and Dassonneville’s study to be suspect. First, their methodology for measuring economic anxiety doesn’t match the kind of economic anxiety experienced by Trump voters. Second, they fail to mention in their conclusion that, despite their questionable measure of economic anxiety, it was still more predictive than racism of voting for Trump. Third, they don’t mention that economic anxiety is more predictive than anti-immigrant sentiment for voting for Trump among non-Hispanic whites, Trump’s core demographic.
+
+### *The Nation* also gets it wrong
+
+A study by *The Nation* also found that Trump won due to racism; it too used a surprisingly unsound methodology. Sean McElwee and Jason McDaniel’s 2017 article “[Economic Anxiety Didn’t Make People Vote Trump, Racism Did](https://www.thenation.com/article/archive/economic-anxiety-didnt-make-people-vote-trump-racism-did/)” used a sociotropic evaluation to measure economic anxiety and measured racial resentment and anti-immigrant sentiment with dubious questions.
+
+For example, views that they coded as anti-immigrant included “whether one believes immigrants take away jobs” (I already addressed why this is problematic) and “whether one believes immigrants are more likely to commit crimes”—I don’t think this view, though it is false, is a proxy for anti-immigrant prejudice. Immigrants tend to be in a more precarious economic situation than non-immigrants and probably have fewer cultural ties to their community (because they come from elsewhere). Both [poverty](https://psycnet.apa.org/record/1994-33910-001) and [social detachment](https://api.pageplace.de/preview/DT0400.9781351529723_A30635299/preview-9781351529723_A30635299.pdf) are related to delinquency, which I think most people could reasonably intuit, so it seems plausible that a non-prejudiced person would respond affirmatively to this question.
+
+McElwee and McDaniel measure racism by asking questions that plenty of conservatives would respond affirmatively to not because they’re racist but because they lean libertarian. They ask whether respondents think that “black people need to simply ‘try harder’ to be successful in America, or that generations of discrimination do not hold back black Americans.” Conservatives generally think this claim is true of black people . . . and white, Asian, and Hispanic people and everyone else. Their racism variable basically just measures for whether someone believes the American free-market economy is fair. They also ask “whether the US government favours black people over white people,” something that was plausibly true in at least some cases before affirmative action was overturned.
+
+And here’s the most astounding thing in the article:
+
+> We created a stereotyping scale which measures views like believing people of colour are more violent or lazier than whites, but it was not included in our final models because it did not predict voting behaviour.
+
+Well there’s your answer! Classically racist views—that don’t sneakily measure for conservatism—don’t predict voting for Trump. Lead with that next time.
+
+### Racism is probably not why Trump won
+
+A more sophisticated *[Brookings](https://www.brookings.edu/articles/bowling-with-trump/)* [study by Mark Fabian, Robert Bruenig, and Jan-Emmanuel De Neve](https://www.brookings.edu/articles/bowling-with-trump/) found that “the oft-observed positive relationship between racial animus and Trump’s vote share is eliminated by introducing an interaction between racial animus and a measure of the basic psychological need for relatedness.” They also found that worry[^3] (which I think could be a proxy for long-term economic anxiety[^4]) strongly predicted support for Trump: “Trump had substantial cut through in worried counties *except when* they had existing sources of relatedness.”
+
+> We find that racial animus has a strong, positive association with Trump’s vote share independent from worry and relatedness. However, when we interact relatedness with racial animus, the coefficient on racial animus loses significance. Meanwhile, the interaction term is positively and significantly associated with Trump’s vote share. This suggests that people are using racial identification to bolster their sense of relatedness…
+
+<figure><img src="{{ '/assets/images/substack/why-do-people-like-trump-lets-look-at-the-data-5.jpg' | relative_url }}" alt="" loading="lazy"><figcaption>Under model one, “experienced worry yesterday” has a much higher coefficient (0.3186) than “racial animus” (0.0695).</figcaption></figure>
+
+So here are the takeaways: people who are discussing the economic anxiety of Trump voters should look at how those voters have fared economically compared to their past selves, not compared to other Americans. And social scientists should look hard at what their data say before making causal claims about socio-political phenomena.[^5] And nobody who’s dealing with a situation like the 2016 election—which only happened once—should make strong causal claims without extreme caution! Causal claims are hard to establish without replication.
+
+As Fabian et al. show, racism is negatively correlated to relatedness: people who live in strong communities with lots of trust are less racist, and people who live in weak communities—those that have been ravaged by globalization, substance abuse, depopulation, GOP anti-labour policies, etc.—are more prone to being racist. This (and [lots of](https://www.jstor.org/stable/2096296?searchText=Prejudice+as+a+response+to+perceived+group+threat+Population+composition+and+anti-immigrant+and+racial+prejudice+in+Europe.&searchUri=%2Faction%2FdoBasicSearch%3FQuery%3DPrejudice%2Bas%2Ba%2Bresponse%2Bto%2Bperceived%2Bgroup%2Bthreat%253A%2BPopulation%2Bcomposition%2Band%2Banti-immigrant%2Band%2Bracial%2Bprejudice%2Bin%2BEurope.%26so%3Drel&ab_segments=0%2Fbasic_search_gsv2%2Fcontrol&refreqid=fastly-default%3Ada67acc04580637e81bd685581b58166) [other](https://www.proquest.com/docview/1293149205?fromopenview=true&imgSeq=1&pq-origsite=gscholar&sourcetype=Scholarly+Journals) [data](https://www.jstor.org/stable/2547393?searchText=Espenshade+and+Hempstead+%281996%29+%22contemporary+american+attitudes%22&searchUri=%2Faction%2FdoBasicSearch%3FQuery%3DEspenshade%2Band%2BHempstead%2B%25281996%2529%2B%2522contemporary%2Bamerican%2Battitudes%2522%26so%3Drel&ab_segments=0%2Fbasic_phrase_search%2Fcontrol&refreqid=fastly-default%3A997c446f9e880a2b996980c48ede52e2)) confirms my theory that most people aren’t fundamentally racist; rather, precarious economic and social situations make them more bigoted. [Many of those very people](https://www.nytimes.com/2017/08/15/upshot/the-obama-trump-voters-are-real-heres-what-they-think.html) who display racial resentment and voted for Trump also voted for Obama, showing that their racial resentment probably isn’t the determining factor in how they vote.
+
+Rural working-class communities that depended on manufacturing suffered from decades of neoliberal policies like free trade, which were supported by Democrats and Republicans alike. And then, in 2016, the first major-party candidate in a long time to reject free trade came along: Donald Trump.
+
+So with all that being said, and with extreme caution, I present the following causal theory:
+
+Trump voters chose Trump because they liked his policies.[^6]
+
+[^1]: The Schaffner, Macwilliams, and Nteta article does use a four-year retrospective economic evaluation for half of its results, which I think fails to capture the multi-decade economic decline of rural, working-class whites. In fact, [most of the decline in manufacturing jobs due to China’s accession to the WTO](https://www.usitc.gov/research_and_analysis/documents/Pierce%20and%20Schott%20-%20The%20Surprisingly%20Swift%20Decline%20of%20U.S.%20Manufacturing%20Employment_0.pdf) happened in the early 2000s; this study fails to measure that. Here’s [another study](https://www.jstor.org/stable/26509602?searchText=trump+%22economic+anxiety%22&searchUri=%2Faction%2FdoBasicSearch%3FQuery%3Dtrump%2B%2522economic%2Banxiety%2522%26so%3Drel&ab_segments=0%2Fbasic_phrase_search%2Fcontrol&refreqid=fastly-default%3Ae4b34202a732cffce5cc04aac1171f98&seq=1) that also uses a four-year retrospective economic evaluation and corroborates Schaffner, Macwilliams, and Nteta’s results. The Hooghe and Dassonneville article uses a one-year retrospective analysis, which is also not enough IMHO.
+
+[^2]: [I don’t buy](https://www.mironline.ca/immigration-is-the-solution-to-canadas-housing-crisis/) the claim that increasing the labour supply with low-skilled immigrants harms domestic workers.
+
+[^3]: They define worry by looking at responses to questions about “whether respondents experienced worry, stress, or pain yesterday, whether they have been treated for depression in the past month, their life satisfaction on a scale from 0-10, and what they expect their life satisfaction to be in 5 years’ time.”
+
+[^4]: I can’t find any researchers that will look at multi-decade retrospective economic data when trying to parse the determinants of Trump support! This is frustrating. If anyone can find such a study, let me know.
+
+[^5]: Why did all these academics come to a different conclusion than I? Here’s my theory: The view that racism is why people voted for Trump is appealing to liberals because it absolves them of any responsibility in Trump’s election. If it turns out, however, that Trump voters were motivated by economic anxiety and support for Trump’s policies, then liberals—and all Americans, a bit—are to blame. When one demographic group (rural, working-class whites) is left behind and its concerns go unaddressed by conventional political figures, the electorate that refused to listen to that demographic’s concerns (other Americans) is partially responsible for that demographic turning to an unsavoury populist.
+
+[^6]: But the people who stormed the capitol might have done so (at least in part) because they’re racist. Here’s an [interesting graph](https://d3qi0qp55mx5f5.cloudfront.net/cpost/i/docs/Pape_-_American_Face_of_Insurrection_(2022-01-05).pdf?mtime=1654548769):
+
+    <figure><img src="{{ '/assets/images/substack/why-do-people-like-trump-lets-look-at-the-data-6.png' | relative_url }}" alt="" loading="lazy"></figure>
