@@ -71,7 +71,3 @@ code { font-size: 0.9em; background: #f4f4f4; padding: 0.1em 0.3em; border-radiu
   .profile-photo { float: none; display: block; margin: 0 auto 1rem; }
 }
 
-/* Substack subscribe box */
-.substack-subscribe { margin: 1.5rem 0; }
-.substack-subscribe iframe { display: block; width: 100%; max-width: 480px; border: 1px solid var(--border); border-radius: 6px; background: #fff; }
-.substack-fallback { font-family: var(--ui-font); font-size: 0.9rem; color: var(--muted); margin: 0.5rem 0 0; }

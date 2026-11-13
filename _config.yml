@@ -8,7 +8,7 @@ title: "Your Name"
 description: "A short line about you, shown in search engine results."
 email: "you@example.com"
 
-# Your Substack address, used by the subscribe box on the Blog page.
+# Your Substack address, used by the subscribe links.
 substack_url: "https://theoshouse.substack.com"
 
 # Links shown at the bottom of every page. Delete any line you don't want.
@@ -39,6 +39,7 @@ timezone: America/Toronto
 
 exclude:
   - HOW-TO-EDIT.md
+  - CLAUDE.md
   - README.md
 
 defaults:

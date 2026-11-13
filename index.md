@@ -12,4 +12,4 @@ You can read my [CV](/cv/) or browse my [blog](/blog/).
 
 ## Substack
 
-I also write on [Substack]({{ site.substack_url }}). You can read everything on my [blog]({{ '/blog/' | relative_url }}), where there is also a box to subscribe by email.
+I also write on [Substack]({{ site.substack_url }}). You can read everything on my [blog]({{ '/blog/' | relative_url }}), or [subscribe by email]({{ site.substack_url }}/subscribe).
