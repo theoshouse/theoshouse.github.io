@@ -1,0 +1,18 @@
+{% comment %}
+  Shows posts from Substack. They are downloaded automatically into
+  _data/substack.json. Use it with {% include substack-posts.html limit=3 %}.
+{% endcomment %}
+{% assign substack_posts = site.data.substack | default: empty %}
+{% assign substack_limit = include.limit | default: 20 %}
+{% if substack_posts.size > 0 %}
+  {% for post in substack_posts limit: substack_limit %}
+  <div class="post-item substack-item">
+    {% if post.image and include.images %}<a href="{{ post.url }}"><img class="substack-thumb" src="{{ post.image }}" alt="" loading="lazy"></a>{% endif %}
+    <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+    {% if post.date %}<span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>{% endif %}
+    {% if post.description and include.images %}<p>{{ post.description }}</p>{% endif %}
+  </div>
+  {% endfor %}
+{% else %}
+  <p>Read my posts on <a href="{{ site.substack_url }}">Substack</a>.</p>
+{% endif %}
