@@ -6,7 +6,7 @@
 
 title: "Your Name"
 description: "A short line about you, shown in search engine results."
-email: "you@example.com"
+email: "theodore.shouse@mail.mcgill.ca"
 
 # Your Substack address, used by the subscribe links.
 substack_url: "https://theoshouse.substack.com"
@@ -14,9 +14,7 @@ substack_url: "https://theoshouse.substack.com"
 # Links shown at the bottom of every page. Delete any line you don't want.
 links:
   - name: "LinkedIn"
-    url: "https://www.linkedin.com/in/your-profile"
-  - name: "GitHub"
-    url: "https://github.com/your-username"
+    url: "https://www.linkedin.com/in/theodore-shouse-a39133a7/"
   - name: "Substack"
     url: "https://theoshouse.substack.com"
 
