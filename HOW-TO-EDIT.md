@@ -15,7 +15,7 @@ This file is a guide for you. It does not appear on the website.
 | `files/` | Downloadable files, such as `cv.pdf` |
 | `assets/style.css` | Colours and fonts |
 | `_layouts/` | The page design. Leave this alone unless you want to change the layout |
-| `substack.md` | Your Substack page, with a subscribe box |
+| `substack.html` | Sends anyone who visits the old Substack page to your Blog page. Leave it alone |
 | `.pages.yml` | Settings for the optional visual editor (see the end of this guide) |
 
 Every change you save on GitHub appears on your website after one or two minutes.
@@ -103,11 +103,23 @@ then add it to the `navigation` list in `_config.yml`:
     url: "/projects/"
 ```
 
-## Your Substack page
+## Substack and cross-posting
 
-The **Substack** page has a box where visitors can subscribe to your Substack with their email, and a link to all your posts. It doesn't need any updating when you publish.
+The bottom of the **Blog** page has a box where visitors can subscribe to your Substack by email. If you ever change your Substack address, edit the `substack_url` line in `_config.yml`.
 
-If you ever change your Substack address, edit the `substack_url` line in `_config.yml`.
+If a post also appears somewhere else (Substack, LessWrong, the EA Forum), you can list those places at the top of the post, and the post will end with "Also published on ..." links:
+
+```
+---
+title: "My post"
+description: "One sentence for the blog list."
+also_on:
+  - name: "Substack"
+    url: "https://theoshouse.substack.com/p/my-post"
+  - name: "LessWrong"
+    url: "https://www.lesswrong.com/posts/..."
+---
+```
 
 ## If something breaks
 

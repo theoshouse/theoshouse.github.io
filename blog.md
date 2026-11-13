@@ -12,3 +12,9 @@ permalink: /blog/
   {% if post.description %}<p>{{ post.description }}</p>{% endif %}
 </div>
 {% endfor %}
+
+## Get new posts by email
+
+My posts also go out on [Substack]({{ site.substack_url }}). Enter your email to get them in your inbox.
+
+{% include substack-subscribe.html %}

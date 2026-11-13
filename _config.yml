@@ -8,7 +8,7 @@ title: "Your Name"
 description: "A short line about you, shown in search engine results."
 email: "you@example.com"
 
-# Your Substack address, used by the "Substack" page and its subscribe box.
+# Your Substack address, used by the subscribe box on the Blog page.
 substack_url: "https://theoshouse.substack.com"
 
 # Links shown at the bottom of every page. Delete any line you don't want.
@@ -29,8 +29,6 @@ navigation:
     url: "/cv/"
   - name: "Blog"
     url: "/blog/"
-  - name: "Substack"
-    url: "/substack/"
 
 # ------------------------------------------------------------
 # TECHNICAL SETTINGS: you shouldn't need to change anything below.
