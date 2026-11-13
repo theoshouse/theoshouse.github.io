@@ -72,6 +72,18 @@ To remove a post, open its file, click the three dots (**...**) at the top right
 | `![description](/assets/images/photo.jpg)` | a picture |
 | a blank line | a new paragraph |
 
+### Footnotes
+
+To add a footnote, put `[^1]` right after the word where the little number should appear. Then, anywhere below (usually at the very end of the post), write the note on its own line:
+
+```
+This claim needs a source.[^1]
+
+[^1]: Here is the source, with a [link](https://example.com).
+```
+
+The site numbers the footnotes for you, in order, and puts them at the bottom of the post with links back and forth. You can use words instead of numbers (`[^source]`) if that's easier to keep track of.
+
 ## Add a picture
 
 1. Open the `assets/images` folder, click **Add file**, then **Upload files**, and upload the picture.

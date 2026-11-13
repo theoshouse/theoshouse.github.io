@@ -7,7 +7,7 @@ This is Theo's personal website, a Jekyll site published by GitHub Pages from `m
 Theo writes drafts in Google Docs and sends Claude the link. Each time:
 
 1. Read the doc with the Google Docs connector. Keep Theo's wording; only fix formatting.
-2. Convert it to Markdown in `_posts/YYYY-MM-DD-short-title.md` (today's date unless Theo gives one), with front matter `title` and a one-sentence `description`. Put images in `assets/images/` and link them.
+2. Convert it to Markdown in `_posts/YYYY-MM-DD-short-title.md` (today's date unless Theo gives one), with front matter `title` and a one-sentence `description`. Put images in `assets/images/` and link them. Google Docs footnotes become kramdown footnotes (`[^name]` in the text, `[^name]: note` at the end); the Docs API returns them under `footnotes`, and `footnoteReference` marks where each goes. Strip tracking parameters (such as `fbclid`) from links.
 3. Build the site locally with Jekyll to check it, then open a pull request and give Theo the link to merge. The post goes live a minute or two after merging.
 4. Ask Theo whether to also publish it on Substack, LessWrong and/or the EA Forum. Claude can't post to those sites (they need Theo signed in). For each site Theo picks, give a version ready to paste into that site's editor, ending with a line like "Originally published on [my website](link to the post)".
 5. When Theo sends the links of the cross-posts, add them to the post's front matter so the post ends with "Also published on ..." links:
