@@ -11,6 +11,8 @@ This file is a guide for you. It does not appear on the website.
 | `cv.md` | Your CV page |
 | `blog.md` | The list of blog posts. It updates itself, so you never need to edit it |
 | `_posts/` | One file per blog post |
+| `_podcasts/` | One file per podcast episode, listed on the Podcasts page |
+| `podcasts.md` | The Podcasts page. It updates itself, so you never need to edit it |
 | `assets/images/` | Pictures, including your profile photo (`profile.jpg`) |
 | `files/` | Downloadable files, such as `cv.pdf` |
 | `assets/style.css` | Colours and fonts |
@@ -59,6 +61,27 @@ Your first paragraph goes here.
 5. Click **Commit changes**.
 
 To remove a post, open its file, click the three dots (**...**) at the top right and choose **Delete file**.
+
+## Add a podcast episode
+
+1. Open the `_podcasts` folder on github.com and click **Add file**, then **Create new file**.
+2. Name it with the date and a short title, like `2026-12-01-interview-with-someone.md`.
+3. Paste this, changing the text and the Spotify episode code (the letters and numbers at the end of the episode's Spotify link):
+
+```
+---
+title: "Interview with Someone on Something"
+date: 2026-12-01
+description: "One sentence about the episode."
+slug: interview-with-someone
+---
+
+A sentence or two about the guest.
+
+<div class="embed"><iframe src="https://open.spotify.com/embed/episode/PUT-THE-CODE-HERE" title="Spotify" height="152" loading="lazy" allow="encrypted-media"></iframe></div>
+```
+
+To hide an episode without deleting it, add the line `published: false` between the `---` lines. The Kelley Vlahos, Anatol Lieven and Connor Echols episodes are hidden this way; delete that line to show one.
 
 ## Formatting cheat sheet
 

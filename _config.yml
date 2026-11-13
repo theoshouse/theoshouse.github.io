@@ -27,6 +27,8 @@ navigation:
     url: "/cv/"
   - name: "Blog"
     url: "/blog/"
+  - name: "Podcasts"
+    url: "/podcasts/"
 
 # ------------------------------------------------------------
 # TECHNICAL SETTINGS: you shouldn't need to change anything below.
@@ -34,6 +36,11 @@ navigation:
 markdown: kramdown
 permalink: /blog/:year/:month/:title/
 timezone: America/Toronto
+
+# Podcast episodes live in the _podcasts folder and are listed on the Podcasts page.
+collections:
+  podcasts:
+    output: false
 
 exclude:
   - HOW-TO-EDIT.md
