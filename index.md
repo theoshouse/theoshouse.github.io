@@ -10,8 +10,6 @@ I live in Montréal, coach debate, and work on AI safety.
 
 You can read my [CV](/cv/) or browse my [blog](/blog/).
 
-## Latest on Substack
+## Substack
 
-{% include substack-posts.html limit=3 %}
-
-<p><a href="{{ '/substack/' | relative_url }}">More posts and a subscribe box →</a></p>
+I also write on [Substack]({{ site.substack_url }}). You can [subscribe here]({{ '/substack/' | relative_url }}).

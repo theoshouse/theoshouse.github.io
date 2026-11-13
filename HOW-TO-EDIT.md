@@ -15,8 +15,7 @@ This file is a guide for you. It does not appear on the website.
 | `files/` | Downloadable files, such as `cv.pdf` |
 | `assets/style.css` | Colours and fonts |
 | `_layouts/` | The page design. Leave this alone unless you want to change the layout |
-| `substack.md` | Your Substack page. Posts appear on it automatically |
-| `_data/substack.json` | The list of Substack posts. A robot updates it every six hours, so don't edit it |
+| `substack.md` | Your Substack page, with a subscribe box |
 | `.pages.yml` | Settings for the optional visual editor (see the end of this guide) |
 
 Every change you save on GitHub appears on your website after one or two minutes.
@@ -104,11 +103,9 @@ then add it to the `navigation` list in `_config.yml`:
     url: "/projects/"
 ```
 
-## Your Substack posts
+## Your Substack page
 
-Your newest Substack posts appear on the **Substack** page and on your home page. A small robot on GitHub (in the **Actions** tab, called "Update Substack posts") checks Substack every six hours and adds new posts to the site by itself. You don't need to do anything when you publish on Substack.
-
-To show a new post right away, open the **Actions** tab, click **Update Substack posts** on the left, then **Run workflow**.
+The **Substack** page has a box where visitors can subscribe to your Substack with their email, and a link to all your posts. It doesn't need any updating when you publish.
 
 If you ever change your Substack address, edit the `substack_url` line in `_config.yml`.
 

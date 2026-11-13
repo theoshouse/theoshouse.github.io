@@ -5,12 +5,8 @@ permalink: /substack/
 
 # Substack
 
-I write on [Substack]({{ site.substack_url }}). New posts appear on this page automatically.
+I write on [Substack]({{ site.substack_url }}). Enter your email below to get new posts in your inbox.
 
 {% include substack-subscribe.html %}
 
-## Recent posts
-
-{% include substack-posts.html images=true %}
-
-<p class="back"><a href="{{ site.substack_url }}/archive">See every post on Substack →</a></p>
+<p class="back"><a href="{{ site.substack_url }}/archive">Read all my posts on Substack →</a></p>

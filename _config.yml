@@ -8,8 +8,7 @@ title: "Your Name"
 description: "A short line about you, shown in search engine results."
 email: "you@example.com"
 
-# Your Substack address. Posts from it appear on the "Substack" page
-# and on your home page. They update by themselves every few hours.
+# Your Substack address, used by the "Substack" page and its subscribe box.
 substack_url: "https://theoshouse.substack.com"
 
 # Links shown at the bottom of every page. Delete any line you don't want.
