@@ -2,7 +2,7 @@
 :root {
   --text: #000;
   --muted: #000;
-  --accent: #000;
+  --accent: #0645ad;
   --background: #fff;
   --border: #e5e5e5;
   --font: "Times New Roman", Times, serif;
@@ -16,8 +16,8 @@ body {
   max-width: 870px;
   padding: 0 1.25rem;
   font-family: var(--font);
-  font-size: 1.1rem;
-  line-height: 1.65;
+  font-size: 1rem;
+  line-height: 1.15;
   color: var(--text);
   background: var(--background);
 }
@@ -35,13 +35,13 @@ a { color: var(--accent); }
   font-family: var(--ui-font);
 }
 .site-title { font-weight: 700; font-size: 1.25rem; color: var(--text); text-decoration: none; }
-.site-header nav a { margin-left: 1.1rem; color: var(--muted); text-decoration: none; }
+.site-header nav a { margin-left: 1.1rem; color: var(--accent); text-decoration: none; }
 .site-header nav a:first-child { margin-left: 0; }
-.site-header nav a:hover, .site-header nav a.current { color: var(--accent); text-decoration: underline; }
+.site-header nav a:hover, .site-header nav a.current { text-decoration: underline; }
 
 main { padding: 1.5rem 0 2rem; }
 
-h1, h2, h3 { font-family: var(--ui-font); line-height: 1.25; }
+h1, h2, h3 { font-family: var(--ui-font); line-height: 1.15; }
 h1 { font-size: 2rem; margin-top: 0.5rem; }
 h2 { font-size: 1.35rem; margin-top: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 0.25rem; }
 

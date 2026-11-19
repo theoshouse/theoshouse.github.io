@@ -83,7 +83,7 @@ te diría que pierdo las ganas de odiar (I’d tell you that I lose the will to 
 si acomodo mis pasos a tu caminar (if I match my steps to yours)
 y que el mundo contigo se ve menos enfermo (and that the world with you looks less sick)
 
-que ya es primavera en el Corte Inglés (that it's already spring in Corte Inglés)
+que ya es primavera en el Corte Inglés (that it’s already spring in Corte Inglés)
 que he pedido una caña y me han puesto tres (that I ordered one beer and they gave me three)
 que va a ser que se ha puesto de moda el amor otra vez (that maybe love is back in style again)
 ```
