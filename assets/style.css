@@ -5,14 +5,14 @@
   --accent: #000;
   --background: #fff;
   --border: #e5e5e5;
-  --font: Helvetica, "Helvetica Neue", Arial, sans-serif;
-  --ui-font: Helvetica, "Helvetica Neue", Arial, sans-serif;
+  --font: "Times New Roman", Times, serif;
+  --ui-font: "Times New Roman", Times, serif;
 }
 
 * { box-sizing: border-box; }
 
 body {
-  margin: 0 auto;
+  margin: 0;
   max-width: 870px;
   padding: 0 1.25rem;
   font-family: var(--font);
@@ -46,7 +46,7 @@ h1 { font-size: 2rem; margin-top: 0.5rem; }
 h2 { font-size: 1.35rem; margin-top: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 0.25rem; }
 
 img { max-width: 100%; height: auto; }
-.profile-photo { width: 160px; height: 160px; object-fit: cover; border-radius: 50%; float: right; margin: 0 0 1rem 1.5rem; }
+.profile-photo { width: 160px; height: 160px; object-fit: cover; float: right; margin: 0 0 1rem 1.5rem; }
 
 .post-item { margin-bottom: 1.5rem; }
 .post-link { font-family: var(--ui-font); font-size: 1.2rem; font-weight: 600; text-decoration: none; }
