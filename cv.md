@@ -3,10 +3,6 @@ title: CV
 permalink: /cv/
 ---
 
-# Curriculum Vitae
-
-Montréal, QC · [theodore.shouse@mail.mcgill.ca](mailto:theodore.shouse@mail.mcgill.ca) · [LinkedIn](https://www.linkedin.com/in/theodore-shouse-a39133a7/)
-
 Authorized to work in the US, Canada and the EU.
 
 [Download my CV as a PDF](/files/cv.pdf)
